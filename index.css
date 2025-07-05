@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    background-color: #222;
+    color: #eee;
+}
 .nav-link {
     color: orange;
     text-decoration: none;
@@ -22,4 +27,24 @@ selection{
 
 .d-inline{
     display:inline;
+}
+
+nav > ul{
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+}
+
+#avatar{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin:32px auto;
+
+    background-image: url(./images/example.png);
+    background-size: cover;
+    background-position: 50%;
+
+    border-radius: 9999px;
 }
