@@ -14,7 +14,7 @@ main {
     margin: 24px auto;
 }
 
-selection{
+section {
     margin: 24px 0;
     padding: 16px;
 
@@ -38,8 +38,8 @@ nav > ul{
 
 #avatar{
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin:32px auto;
 
     background-image: url(./images/example.png);
